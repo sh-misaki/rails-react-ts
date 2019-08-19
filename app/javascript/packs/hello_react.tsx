@@ -1,12 +1,12 @@
+import PropTypes from 'prop-types'
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
-import PropTypes from 'prop-types'
 
-interface HelloProps {
+interface IHelloProps {
   name: string
 }
 
-const Hello: React.SFC<HelloProps> = props => (
+const Hello: React.SFC<IHelloProps> = props => (
   <div>Hello {props.name}!</div>
 )
 
